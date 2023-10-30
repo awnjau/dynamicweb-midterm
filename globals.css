@@ -1,0 +1,17 @@
+h1{
+  align-items:center;
+  font-size:50px;
+  
+}
+
+@keyframes floatUpAndDown {
+  0% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}

@@ -1,0 +1,38 @@
+.h1{
+    font-size:300px;
+
+}
+
+.CountryInfoWrapper{
+    align-items: center;
+    color: #2B3A67;
+    background-color:#66999B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    height: 100vh; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.button{
+    background-color: #496A81;
+    border-radius: 10px;
+    color: #2B3A67; /* Button text color */
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(43, 58, 103, 0.7);
+    transition: box-shadow 0.3s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+    
+
+.CountryFlagImage{
+    border: 5px solid #2B3A67; ;
+    border-radius:10px;
+}
